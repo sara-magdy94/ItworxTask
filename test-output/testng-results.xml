@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-09T05:56:21 EET" name="Default suite" finished-at="2023-07-09T05:56:33 EET" duration-ms="12432">
+    <groups>
+    </groups>
+    <test started-at="2023-07-09T05:56:21 EET" name="Default test" finished-at="2023-07-09T05:56:33 EET" duration-ms="12432">
+      <class name="Tests.CreatCourseTest">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:Tests.CreatCourseTest@729d991e]" started-at="2023-07-09T05:56:17 EET" name="startDriver" finished-at="2023-07-09T05:56:21 EET" duration-ms="3304" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method is-config="true" signature="startDriver()[pri:0, instance:Tests.CreatCourseTest@729d991e]" started-at="2023-07-09T05:56:21 EET" name="startDriver" finished-at="2023-07-09T05:56:21 EET" duration-ms="335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="UserCanLogin_AndCreateCourse(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Tests.CreatCourseTest@729d991e]" started-at="2023-07-09T05:56:23 EET" name="UserCanLogin_AndCreateCourse" data-provider="MyData" finished-at="2023-07-09T05:56:33 EET" duration-ms="10663" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testregister@aaa.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Wakram_123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SaraMv12345]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[number:13]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanLogin_AndCreateCourse -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.CreatCourseTest@729d991e]" started-at="2023-07-09T05:56:33 EET" name="screenshotOnFailure" finished-at="2023-07-09T05:56:33 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanLogin_AndCreateCourse status=SUCCESS method=CreatCourseTest.UserCanLogin_AndCreateCourse(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Tests.CreatCourseTest@729d991e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:Tests.CreatCourseTest@729d991e]" started-at="2023-07-09T05:56:33 EET" name="stopDriver" finished-at="2023-07-09T05:56:34 EET" duration-ms="639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- Tests.CreatCourseTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
